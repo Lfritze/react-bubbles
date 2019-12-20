@@ -15,13 +15,54 @@ body,
   text-align: center;
   display: flex;
 
+  // My styling changes for login
+  .login-div {
+    color: white;
+    padding: 5%;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 150px;
+    border: 5px solid black;
+    height: 50%;
+    background-image: url("./assets/bubbles.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    background: black;
+  }
+
   svg {
     height: 100%;
   }
 }
 
+// My styling Changes for login
+.login-input {
+  margin: 0 auto;
+  width: 40%;
+  margin-bottom: 2%;
+}
+
+.login-button {
+  width: 15%;
+  margin: 0 auto;
+}
+
+.login-button:hover {
+  background-color: black;
+  color: white;
+}
+
+// My styling changes BubblePage
 .spacer {
   height: 100%;
+}
+
+.spacer {
+  height: 1%;
+  background: lightgray;
+  margin-top: 4%;
 }
 
 .bubble-wrap {
@@ -90,10 +131,11 @@ form {
   padding: 0 36px 0 41px;
 
   button {
-    border: none;
+    // border: none;
     background-color: black;
     color: white;
     padding: 3px 8px;
     margin-top: 16px;
+    border: 2px solid teal;
   }
 }

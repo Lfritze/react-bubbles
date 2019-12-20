@@ -65,7 +65,8 @@ const ColorList = ({ colors, updateColors }) => {
 
   return (
     <div className="colors-wrap">
-      <p>colors</p>
+      <p>Click a Color to Edit</p>
+      <small>Click x to delete colors</small>
       <ul>
         {colors.map(color => (
           <li key={color.color} onClick={() => editColor(color)}>
